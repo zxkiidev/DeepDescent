@@ -1,0 +1,55 @@
+# Sistema operativo y archivos temporales
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log
+*.out
+*.rej
+*~
+~$*
+*.pid
+*.seed
+*.old
+*.orig
+*.save
+
+# Archivos ocultos de versiones y otros archivos de sistema
+desktop.ini
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de Godot
+.import/
+.export/
+export_presets.cfg
+.editor_settings-*.json
+.editor_settings_path-*.txt
+*.import
+.godot/*.godot
+
+# Archivos de compilación de Godot
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Módulos y complementos de terceros
+addons/
+
+# Carpeta de caché de Godot (si se usa)
+.cache/
+
+# Archivos de exportación y compilación
+export/
+build/
+
+# Archivos de usuario o configuración específicos de desarrollo
+.project.godot
+.editor_settings-*.json
+.editor_layout.cfg
