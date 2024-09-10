@@ -1,14 +1,20 @@
-# Archivos de Godot
+# Ignorar archivos de configuración de Godot
+.import/
 .godot/
 .godot/*.godot
 
-# Módulos y complementos de terceros
-addons/
-
-# Carpeta de caché de Godot (si se usa)
-.cache/
-
-# Archivos de exportación y compilación
-export/
+# Ignorar archivos de build
 build/
+*.log
 
+# Ignorar archivos temporales de sistema
+*.tmp
+*.swp
+
+# Ignorar archivos de IDE
+.vscode/
+.idea/
+
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
